@@ -13,8 +13,9 @@
 }
 
 #sts{
+    margin-top: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .sts2{
@@ -28,9 +29,10 @@
 }
 
 #con{
-    width: 100%;
+    width: 90%;
     height: auto;
-    background-color: aliceblue;
+    margin: 0 auto;
+    background-color: #f3f3f3e3;
     padding: 30px;
 }
 
