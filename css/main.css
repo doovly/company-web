@@ -130,6 +130,7 @@
 #section3 {
   text-align: center;
   background-color: #f3f3f3;
+  padding-bottom: 50px;
 }
 #section3 :nth-child(1) {
   font-size: 24px;
