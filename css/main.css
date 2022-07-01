@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 /* 플로팅버튼 */
 .toTopScroll {
@@ -113,16 +112,114 @@
 /* 캐러셀 */
 
 /* 섹션2 */
-
+#section2 {
+  text-align: center;
+  margin: 50px;
+}
+#section2 :nth-child(1) {
+  font-size: 25px;
+}
+#section2 :nth-child(2) {
+  font-size: small;
+  color: gray;
+}
 /* 섹션3 */
-
+#section3 {
+  text-align: center;
+  background-color: #f3f3f3;
+}
+#section3 :nth-child(1) {
+  font-size: 20px;
+  padding-top: 30px;
+}
+#section3 :nth-child(2) {
+  font-size: small;
+  color: gray;
+}
+.section3img {
+  
+}
 /* 섹션4 */
 
+#section4flex {
+  display: flex;
+  flex-direction: row;
+}
+#section4 {
+  text-align: center;
+  margin-top: 50px;
+}
+#section4 :nth-child(1) {
+  font-size: 20px;
+}
+#section4 :nth-child(2) {
+  font-size: small;
+  color: gray;
+}
+.section4-1 {
+  border: 1px solid gray;
+  margin-right: 10px;
+  padding: 10px;
+  width: 50%; float: left;
+}
 /* 섹션5 */
+#section5 {
+  text-align: center;
+  border: 1px solid gray;
+  margin-top: 20px;
+  position: relative;
+  width: 1920px; height: 344px;
+}
+#section5 img {
+  object-fit: fill;
+}
 
+#section5-1 :nth-child(1) {
+  font-size: 20px;
+}
+#section5-1 :nth-child(2) {
+  font-size: small;
+  color: gray;
+
+}
 
 /* 섹션6 */
+#section6 {
+  text-align: center;
+  margin-top: 20px;
+}
+#section6 :nth-child(1) {
+  font-size: 20px;
+}
+#section6 :nth-child(2) {
+  font-size: small;
+  color: gray;
+}
+#cscenter {
+  display: flex;
+}
+#cscenter-1 {
 
+}
+#cscenter-2 {
+  border-top: 1px solid gray;
+}
+#cs {
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+#cs-3 {
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+#cs-4 {
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+#cs-5 {
+  border: 1px solid gray;
+  margin-right: 10px;
+}
 /* footer */
 
 
