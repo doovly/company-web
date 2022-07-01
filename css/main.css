@@ -136,9 +136,6 @@
   font-size: small;
   color: gray;
 }
-.section3img {
-  
-}
 /* 섹션4 */
 
 #section4flex {
@@ -198,9 +195,7 @@
 #cscenter {
   display: flex;
 }
-#cscenter-1 {
 
-}
 #cscenter-2 {
   border-top: 1px solid gray;
 }
