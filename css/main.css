@@ -224,7 +224,7 @@
   display: flex;
   width: 1000px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 #cscenter-1 p{
   color:#555555;
@@ -276,7 +276,31 @@
   text-align: center;
 }
 /* footer */
-.footer {
+.footer{
+  height: 200px;
+  background-color: #333333;
+  text-align: center;
+}
+#ft1{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  
+}
+#ft1 a{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.fivestone{
+  color: #999999;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+
+/* .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -286,7 +310,7 @@
 .fivestone {
   background-color: rgb(226, 226, 226);
   text-align: center;
-}
+} */
 /* 테블릿 */
 @media screen and (min-width: 768px) and (max-width: 959px) {
 }
