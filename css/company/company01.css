@@ -1,0 +1,52 @@
+.title{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    height: 22px;
+}
+
+#eng{
+    font-size: 12px;
+    text-align: center;
+    font-weight: lighter;
+    color: #999999;
+}
+
+#sts{
+    text-align: center;
+    font-size: 20px;
+}
+
+.sts2{
+    font-size: 14px;
+    color: #999999;
+}
+.sts3{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+
+#con{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+.card {
+    margin: 10px;
+    background-color:honeydew;
+}
+.card-img-top{
+    width: 60px;
+}
+.card-title{
+    text-align: center;
+    font-size: 16px;
+}
+.card-text{
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+}
