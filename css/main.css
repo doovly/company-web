@@ -131,18 +131,21 @@
   background-color: #f3f3f3;
 }
 #section3 :nth-child(1) {
-  font-size: 20px;
-  padding-top: 30px;
+  font-size: 24px;
+  padding-top: 50px;
 }
 #section3 :nth-child(2) {
   font-size: small;
   color: gray;
+  margin-bottom: 30px;
 }
 /* 섹션4 */
 
 #section4flex {
   display: flex;
   flex-direction: row;
+  width:1000px;
+  margin: 0 auto;
 }
 #section4 {
   text-align: center;
@@ -153,12 +156,28 @@
 }
 #section4 :nth-child(2) {
   font-size: small;
-  color: gray;
+  color: #999999;
 }
 .section4-1 {
-  border: 1px solid gray;
-  margin-right: 10px;
+  border: 1px solid #dddddd;
+  width: 270px;
+  margin-bottom: 50px;
 }
+.section4-2 img{
+  width: 270px;
+}
+.section4-2 p{
+  margin: 10px;
+}
+.busitxt{
+  font-size: 12px;
+  color: #777777;
+}
+.busititle{
+  font-size: 14px;
+}
+
+
 /* 섹션5 */
 #section5 {
   text-align: center;
