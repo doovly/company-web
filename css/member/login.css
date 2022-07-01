@@ -1,0 +1,30 @@
+.login1 {
+    margin: 20px; padding: 20px;
+    text-align: center;
+}
+.login1 :nth-child(1) {
+    font-size: 30px;
+}
+.login1 :nth-child(2) {
+    color: gray;
+}
+.form {
+    margin: 20px; padding: 20px;
+    border: 1px solid gray;
+    text-align: center;
+}
+.form-group1 {
+    display: inline-block;
+    vertical-align: top;
+}
+.submit {
+     width:70px; height: 50px;
+     background-color: gray; color: white;
+     border: 0; border-radius: 10px;
+     text-align: center;
+}
+.login2 {
+    margin-top: 20px; padding-top: 20px;
+    border-top: 1px solid gray;
+    margin: 20px; padding: 30px;
+}
