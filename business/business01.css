@@ -1,0 +1,39 @@
+#business1 {
+
+}
+#business2 {
+    text-align: center;
+}
+#business2 :nth-child(1) {
+    font-size: 25px;
+}
+#business2 :nth-child(2) {
+    font-size: small;
+    color: gray;
+}
+#business3 :nth-child(1) {
+    text-align: center;
+    font-size: 20px;
+}
+#business3 :nth-child(2) {
+    font-size: small;
+    color: gray;
+}
+#business4 p {
+    font-size: small;
+    color: gray;
+    margin: 20px;
+}
+#business5 p {
+    font-size: small;
+    color: gray;
+    margin: 20px;
+}#business6 p {
+    font-size: small;
+    color: gray;
+    margin: 20px;
+}
+.businessimg {
+    display: block;
+    margin: 20px auto; padding: 20px;
+}
