@@ -11,3 +11,42 @@
     font-weight: lighter;
     color: #999999;
   }
+#product2{
+  height: 500px;
+  width: 100%;
+}  
+.prd1{
+  width: 23%;
+  height: 50%;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+}
+.prd1 img{
+  width: 90%;  
+  height: 70%;
+  margin: 10px;
+}
+
+  #srcbar{
+    margin: 80px 0px;
+    margin-left: 70px;
+  }
+  .srh{
+    height: 30px;
+    border-radius: 0;
+    border:1px solid #999999;
+    font-size: 12px;
+  }
+
+  #src{
+    height: 30px;
+    border-radius: 0;
+    border:1px solid #999999;
+  }
+  .cussrh{
+    width: 30px;
+    height: 30px;
+    border:1px solid #999999;
+    background-color: white;
+  }

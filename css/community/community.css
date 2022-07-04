@@ -99,6 +99,7 @@
 }
 #listtb{
   margin-top: 40px;
+  font-size: 14px;
 }
 .table{
   border-top: 2px solid #444444;
@@ -109,4 +110,31 @@
 }
 .topname{
   background-color:#eeeeee;
+}
+
+#srcbar{
+  margin: 80px 0px;
+}
+.srh{
+  height: 30px;
+  border-radius: 0;
+  border:1px solid #999999;
+  font-size: 12px;
+}
+
+#write{
+  float: right;
+  margin: 10px;
+  margin-right: 20px;
+}
+#src{
+  height: 30px;
+  border-radius: 0;
+  border:1px solid #999999;
+}
+.cussrh{
+  width: 30px;
+  height: 30px;
+  border:1px solid #999999;
+  background-color: white;
 }
