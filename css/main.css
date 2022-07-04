@@ -215,12 +215,13 @@
 }
 .section4-1 {
   border: 1px solid #dddddd;
-  width: 240px;
+  width: 250px;
   margin-bottom: 50px;
   
 }
 .section4-2 img{
   width: 240px;
+  object-fit: contain;
 }
 .section4-2 p{
   margin: 10px;

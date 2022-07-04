@@ -3,28 +3,58 @@
     text-align: center;
 }
 .login1 :nth-child(1) {
-    font-size: 30px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    height: 22px;
 }
 .login1 :nth-child(2) {
-    color: gray;
-}
-.form {
-    margin: 20px; padding: 20px;
-    border: 1px solid gray;
+    font-size: 12px;
     text-align: center;
+    font-weight: lighter;
+    color: #999999;
+}
+
+.form {
+    margin: 15px; padding: 50px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    margin-bottom: 100px;
 }
 .form-group1 {
-    display: inline-block;
-    vertical-align: top;
+    width: 450px;
+    margin: 50px auto;
 }
-.submit {
-     width:70px; height: 50px;
-     background-color: gray; color: white;
-     border: 0; border-radius: 10px;
-     text-align: center;
+.idpw{
+    font-size: 14px;
+    font-weight: bold
 }
+
+#idpw{
+    float: left;
+}
+.form-group1 input{
+    width: 300px;
+    height: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+.emform{
+    margin-left: 10px;
+}
+.form-group2 p{
+    font-size: 12px;
+    color: #777777;
+}
+
 .login2 {
-    margin-top: 20px; padding-top: 20px;
-    border-top: 1px solid gray;
+    border-top: 1px solid #cccccc;
     margin: 20px; padding: 30px;
+}
+
+.login2 img{
+    margin-left: 10px;
+}
+.submit{
+    border: none;
 }

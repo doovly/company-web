@@ -2,14 +2,19 @@
 #join {
     text-align: center;
 }
+
+
 #join :nth-child(1) {
-    margin: 10px; padding: 10px auto;
-    font-size: 25px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    height: 22px;
 }
 #join :nth-child(2) {
-    margin: 10px; padding: 10px auto;
-    font-size: small;
-    color: gray;
+    font-size: 12px;
+    text-align: center;
+    font-weight: lighter;
+    color: #999999;
 }
 #join2 {
     border: 1px solid gray;
