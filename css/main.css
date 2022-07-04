@@ -111,7 +111,11 @@
 }
 
 /* 캐러셀 */
+#carouselExampleControls{
+  width:100%;
 
+  margin: 0 auto;
+}
 /* 섹션2 */
 #section2 {
   text-align: center;
@@ -225,6 +229,7 @@
   cursor: pointer;
 }
 .section4-2 img:hover {
+  transform: scale(1.2, 1.2);
   opacity: 0.5;
   cursor: pointer;
   transition: .5s ease;
@@ -243,7 +248,7 @@
   text-align: center;
   border: 1px solid gray;
   margin-top: 20px;
-  width: 1000px;
+  width: 100%;
   height: 300px;
   margin: 0 auto;
   position: relative;  
@@ -251,7 +256,7 @@
 #section5-1 img {
   width: 100%;
   height: 300px;
-  object-fit: fill;
+  object-fit: cover;
 
 } 
 
