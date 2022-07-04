@@ -5,35 +5,48 @@
     text-align: center;
 }
 #business2 :nth-child(1) {
-    font-size: 25px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    height: 22px;
 }
 #business2 :nth-child(2) {
-    font-size: small;
-    color: gray;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #999999;
 }
 #business3 :nth-child(1) {
     text-align: center;
-    font-size: 20px;
+    margin-top: 50px;
+    font-size: 24px;
 }
 #business3 :nth-child(2) {
-    font-size: small;
-    color: gray;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 10px;
+}
+#business4, #business5, #business6{
+    width: 80%;
+    margin: 0 auto;
 }
 #business4 p {
     font-size: small;
     color: gray;
     margin: 20px;
+    
 }
 #business5 p {
     font-size: small;
     color: gray;
     margin: 20px;
-}#business6 p {
+}
+#business6 p {
     font-size: small;
     color: gray;
     margin: 20px;
 }
 .businessimg {
+    width: 100%;
     display: block;
     margin: 20px auto; padding: 20px;
 }
