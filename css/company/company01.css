@@ -30,11 +30,15 @@
 }
 
 #con{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     background-color: #f3f3f3e3;
     padding: 30px;
+}
+#con3{
+    float: left;
+
 }
 
 .card {
