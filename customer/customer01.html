@@ -97,40 +97,54 @@
         
       </div>
       <div id="form">
-        <div id="input">
+        <div id="listtb">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="title3">구분</td>
+                <td class="sent"><button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    문의
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">문의</a>
+                    <a class="dropdown-item" href="#">기타</a>
+                  </div></td>
+              </tr>
+              <tr>
+                <td class="title3">성명</td>
+                <td class="sent"><input type="text" class="textform"> </td>
+              </tr>
+              <tr>
+                <td class="title3">전화번호</td>
+                <td class="sent"><input type="text" class="textform"> </td>
+              </tr>
+              <tr>
+                <td class="title3">이메일</td>
+                <td class="sent"><input type="text" class="textform"> </td>
+              </tr>
+              <tr>
+                <td class="title3">주소</td>
+                <td class="sent"><input type="text" class="textform"> </td>
+              </tr>
+              <tr>
+                <td class="title3">제목</td>
+                <td class="sent"><input type="text" class="textform"> </td>
+              </tr>
+              <tr>
+                <td class="title3">설명</td>
+                <td class="sent"><input type="text" class="textform"> </td>
+              </tr>
+            </tbody>
+          </table>
           
-          <div class="dropdown">
-            <span class="input-text">구분</span>
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color:black; ">
-              문의
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">문의</a>
-              <a class="dropdown-item" href="#">기타</a>
-            </div>
-          </div>
-
-            <span class="input-text">성명</span>
-            <input type="text" class="textform"> 
-            <span class="input-text">전화번호</span>
-            <input type="text" class="textform">
-            <span class="input-text">이메일</span>
-            <input type="text" class="textform">
-            <span class="input-text">주소</span>
-            <input type="text" class="textform">
-            <span class="input-text">제목</span>
-            <input type="text" class="textform"> 
-            <span class="input-text">설명</span>
-            <input type="text" class="textform" id="textlast">
-              
         </div>
-          
         <div id="but">
-          <button type="button" class="btn btn-dark">확인</button>
-          <button type="button" class="btn btn-secondary">취소</button>
+          <button type="button" style="border: none;"><img src="/img/customer/btn_confirm.gif" alt=""></button>
+          <button type="button"  style="border: none;"><img src="/img/customer/btn_cancel.gif" alt=""></button>
         </div>
-        
+
+
       </div>
 
 

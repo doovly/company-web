@@ -17,50 +17,37 @@
     color: #999999;
 }
 
-#input{
-    width: 100%;
-    background-color: aliceblue;
-    border-top: 3px solid #777777;
-    padding: 10px;
-    margin-top: 40px;
+.title3{
+    text-align: center;
+    background-color: #eeeeee;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 14px;
+    width: 200px;
 }
 
-.input-text{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 200px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    vertical-align: middle;
-    font-size: 16px;
-    background-color: antiquewhite;
+#dropdownMenuButton{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border-radius: 0;
+    width: 60px;
+    height: 30px;
 }
 
 .textform{
-
-    width: 400px;
-    height: 30px;
-    margin: 10px 0;
-    border: 1px solid #999999;
-}
-.textform:nth-of-type(4){
-    width: 500px;
-}
-.textform:nth-of-type(5){
-    width: 500px;
-}
-.textform:nth-of-type(6){
-    width: 500px;
-    height: 200px;
+    width: 300px;
+    border-radius: 0;
+    border: 1px solid #cccccc;
 }
 
 #but{
     text-align: center;
     margin: 10px;
+    margin-bottom: 70px;
+}
+#but img{
+
 }
 
-.txtform{
-    background-color: cornsilk;
-}
