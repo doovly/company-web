@@ -23,6 +23,10 @@
       $('#header').load("/header.html");     
       $('#footer').load("/footer.html");
     });
+    function searchbutton () {
+      alert ("검색어를 정확히 입력하세요.")
+    }
+    
   </script>
 
 </head>
@@ -131,7 +135,7 @@
         <option value="3">작성자</option>
       </select>
       <input type="text" name="src" id="src">
-      <button class="cussrh"><img src="/img/customer/search.gif"></button>
+      <button class="cussrh" onclick="searchbutton()"><img src="/img/customer/search.gif"></button>
     </div>  
   </div>  
   <!-- 푸터 -->

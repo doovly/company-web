@@ -120,3 +120,31 @@
   border:1px solid #999999;
   background-color: white;
 }
+
+
+
+/* customer 02-2 */
+
+
+.title3{
+  text-align: center;
+  background-color: #eeeeee;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 14px;
+  width: 200px;
+}
+
+#txt{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 0;
+  border: 1px solid #999999;
+}
+#but{
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 70px;
+}
