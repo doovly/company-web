@@ -24,17 +24,40 @@
       $('#footer').load("/footer.html");
     });
 
-      function submitbutton(){
-        if(id.length < 4 || isEmpty(id)){
-          alert("아이디를 정확히 입력하세요 (4글자 이상)");
-        }
+    // function submitbutton(){
+    //   var id = document.getElementsByClassName('email');
+    //   console.log(id.length);
+    //   console.log(isEmpty(id));
+    //   if(id.length < 4 || isEmpty(id)){
+    //     alert("아이디를 정확히 입력하세요 (4글자 이상)");
+    //     return;
+    //   }
+    // }
+    function submitbutton(){
+      var arrayID = document.getElementsByClassName('email');
+      console.log(arrayID[0].value.length);
+      console.log(isEmpty(arrayID[0].value));
+      if(arrayID[0].value.length < 4 || isEmpty(arrayID[0].value)){
+        alert("아이디를 정확히 입력하세요 (4글자 이상 222)");
+        return false;
       }
+    }
     function idfind() {
     window.open ("idFind.html","아이디 찾기","width=400, height=320")
     }
     function pwfind() {
     window.open ("passwordFind.html","비밀번호 찾기","width=400, height=320")
     }
+
+    var isEmpty = function(value){
+      if( value == "" || value == null || value == undefined 
+          || ( value != null && typeof value == "object" &&
+                !Object.keys(value).length ) ){    
+        return true;
+      }else{
+        return false;
+      }
+    };
   </script>
 
 </head>
@@ -70,11 +93,11 @@
     <div class="form">
     <div class="form-group1">
       <div id="idpw">
-      <p class="idpw">아이디 <input type="email" class="email"></p>
+      <p class="idpw">아이디 <input type="text" class="email"></p>
       <p class="idpw">비밀번호<input type="password" class="password"></p>
       </div>
       <div id="submit">
-      <button type="submit" class="submit"><img src="/img/member/btn_login.gif" onclick="submitbutton()"></button>
+      <button type="button" class="submit"><img src="/img/member/btn_login.gif" onclick="submitbutton()"></button> 
       </div>
     </div>
     <div class="form-group2">
