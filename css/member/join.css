@@ -18,7 +18,7 @@
 }
 #join2 {
     border: 1px solid gray;
-    margin: 30px;
+    margin: 0px;
     padding: 30px;
     color: gray;
     font-size: 20px;
@@ -33,8 +33,6 @@
     width: auto; height: auto;
     background-color: #eeeeee;
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 .name {
     margin: 5px;
@@ -46,4 +44,47 @@
 }
 
 /* join 2 */
+
+
+.title{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    height: 22px;
+}
+  
+#eng{
+  font-size: 12px;
+  text-align: center;
+  font-weight: lighter;
+  color: #999999;
+}
+
+.jointxt{
+    width: 100%;
+    margin: 0 auto;
+    margin: 10px;
+    margin: 50px 0;
+    font-size: 12px;
+}
+
+#jointxt{
+    width:100%;
+    height: 200px;
+    
+}
+
+#ckbox{
+    margin-right: 5px;
+}
+
+#btnjoin{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid wheat;
+}
+#btnjoin a{
+    width: auto;
+    margin: 0 auto;
+}
 
