@@ -18,28 +18,31 @@
 }
 #join2 {
     border: 1px solid gray;
-    margin: 30px; padding: 10px;
-    padding-top: 20px; padding-bottom: 10px;
+    margin: 30px;
+    padding: 30px;
     color: gray;
-    font-size: small;
+    font-size: 20px;
+}
+#join2 p:nth-child(2){
+    font-size: 14px;
 }
 #join3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid gray;
+    border: 1px solid #dddddd;
+    padding: 100px 0;
     margin: 30px;
-    width: auto; height: 200px;
-    background-color: rgb(233, 230, 230);
+    width: auto; height: auto;
+    background-color: #eeeeee;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .name {
-    margin: 10px;
+    margin: 5px;
+    width: 200px;
+    height:25px;
 }
-button {
-    width: 50px; height: 50px;
-    border: 1px solid gray;
+#submit{
+    margin-top: 10px;
 }
 
 /* join 2 */
