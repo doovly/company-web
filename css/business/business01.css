@@ -1,5 +1,7 @@
 #business1 {
-
+ width: 100%;
+ max-width: 1000px;
+ margin: 0 auto;
 }
 #business2 {
     text-align: center;

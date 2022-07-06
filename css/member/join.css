@@ -18,17 +18,20 @@
 }
 #join2 {
     border: 1px solid gray;
-    margin: 30px 0;
+    margin: 30px auto;
     padding: 30px;
     color: gray;
     font-size: 20px;
+    width: 100%;
+    max-width: 1000px;
 }
 #join2 p:nth-child(2){
     font-size: 14px;
 }
 
 .form {
-    width: 95%;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 100px 0;
     border: 1px solid #dddddd;
@@ -57,7 +60,11 @@
 
 /* join 2 */
 
-
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .title{
     font-size: 24px;
     text-align: center;
@@ -74,9 +81,8 @@
 
 .jointxt{
     width: 100%;
-    margin: 0 auto;
-    margin: 10px;
-    margin: 50px 0;
+    max-width: 1000px;
+    margin: 50px auto;
     font-size: 12px;
 }
 
