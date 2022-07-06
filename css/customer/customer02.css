@@ -38,6 +38,15 @@
   color: #777;
   font-size: 14px;
 }
+.tdtitle{
+  text-decoration: none;
+  color: #999999;
+}
+.tdtitle:hover{
+  text-decoration: none;
+  color: #444444;
+}
+
 
 /* search bar */
 

@@ -28,7 +28,7 @@
   }
   
   #srcbar{
-    margin: 80px 0px;
+    margin: 80px;
   }
   .srh{
     height: 30px;
@@ -65,3 +65,39 @@
     border-bottom: 1px solid #dddddd;
     color: #999999;
 }
+
+.tdtitle{
+  text-decoration: none;
+  color: #999999;
+}
+.tdtitle:hover{
+  text-decoration: none;
+  color: #444444;
+}
+
+/* customer 03_1 */
+
+.title3{
+  text-align: center;
+  background-color: #eeeeee;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 14px;
+  width: 200px;
+}
+
+#txt{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 0;
+  border: 1px solid #999999;
+}
+#but{
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 70px;
+}
+
+

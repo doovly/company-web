@@ -106,7 +106,6 @@
 }
 .table th{
   text-align: center;
-  font-weight: lighter;
 }
 .topname{
   background-color:#eeeeee;
@@ -137,4 +136,13 @@
   height: 30px;
   border:1px solid #999999;
   background-color: white;
+}
+
+.tdtitle{
+  text-decoration: none;
+  color: #999999;
+}
+.tdtitle:hover{
+  text-decoration: none;
+  color: #444444;
 }
