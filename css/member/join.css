@@ -18,7 +18,7 @@
 }
 #join2 {
     border: 1px solid gray;
-    margin: 30px 30px;
+    margin: 30px 0;
     padding: 30px;
     color: gray;
     font-size: 20px;
@@ -26,13 +26,25 @@
 #join2 p:nth-child(2){
     font-size: 14px;
 }
-#join3 {
-    border: 1px solid #dddddd;
+
+.form {
+    width: 95%;
+    margin: 0 auto;
     padding: 100px 0;
-    margin: 30px;
-    width: auto; height: auto;
-    background-color: #eeeeee;
+    border: 1px solid #dddddd;
     text-align: center;
+    margin-bottom: 100px;
+    background-color: #eeeeee;
+}
+#join3{
+    width: 350px;
+    margin: 0 auto;
+}
+#join4{
+    float: left;
+}
+#join4 input{
+    width: 70%;
 }
 .name {
     margin: 5px;
@@ -81,10 +93,7 @@
 #btnjoin{
     width: 100%;
     margin: 0 auto;
-    border: 1px solid wheat;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
-#btnjoin a{
-    width: auto;
-    margin: 0 auto;
-}
-

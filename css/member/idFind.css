@@ -25,13 +25,17 @@
     height: 20px;
 }
 
+
+#idfind4{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
 #idfind5{
     width: 95%;
     margin: 9px;
     height: 30px;
     background-color: #dddddd;
     margin-top: 30px;
-}
-#idfind5 img{
-    margin-left: 10px;
 }

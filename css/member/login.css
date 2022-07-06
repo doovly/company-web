@@ -1,6 +1,7 @@
 .login1 {
     margin: 20px; padding: 20px;
     text-align: center;
+    width: 100%;
 }
 .login1 :nth-child(1) {
     font-size: 24px;
@@ -16,25 +17,27 @@
 }
 
 .form {
-    margin: 15px; padding: 50px;
+    width: 95%;
+    margin: 0 auto;
+     padding: 50px;
     border: 1px solid #dddddd;
     text-align: center;
     margin-bottom: 100px;
 }
 .form-group1 {
-    width: 450px;
+    width: 350px;
     margin: 50px auto;
 }
 .idpw{
     font-size: 14px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 #idpw{
     float: left;
 }
 .form-group1 input{
-    width: 300px;
+    width: 70%;
     height: 20px;
     background-color: #eeeeee;
     border: 1px solid #cccccc;

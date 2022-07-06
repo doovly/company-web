@@ -29,12 +29,18 @@
         <img src="/img/member/txt_join3.gif" alt=""><input type="email" class="txtml"><br>
     </div>
     <div id="idfind4">
-      <img src="" alt="">
+      <input type="image" src="/img/member/btn_confirm.gif" onclick="submit();">
     </div>
-    <div id="idfind5">
-      <img src="/img/member/btn_close.gif" alt="">
+    <div id="idfind5"></div>
+      <input type="image" src="/img/member/btn_close.gif" onclick="window.close();">
     </div>
   </div>
-    
+  <script>
+    function submit() {
+                 //name으로 찾아온다.
+      var form = document.idFindForm;
+      form.submit(); //Form을 submit한다.
+    }
+  </script>    
 </body>
 </html>
