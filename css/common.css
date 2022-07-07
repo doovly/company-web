@@ -4,10 +4,11 @@
   position: relative;
 }
 .commonContent1 {
-  height: 200px;
+  height: 20%;
 }
 .commonContent1 img {
   max-height: 100%;
+  object-fit: cover;
 }
 .commonContent2 {
   padding: 5px 10px;

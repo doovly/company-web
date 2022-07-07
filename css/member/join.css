@@ -132,7 +132,7 @@
 .title3{
     text-align: center;
     font-size: 13px;
-    width: 170px;
+    width: 150px;
     border-right: 1px solid #cccccc;
     background-color: #f3f3f3;
 }
@@ -141,7 +141,9 @@
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    
 }
+
 .sent{
     font-size: 13px;
 }

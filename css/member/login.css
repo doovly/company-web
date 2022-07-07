@@ -36,6 +36,7 @@
 
 #idpw{
     float: left;
+    text-align: center;
 }
 .form-group1 input{
     width: 70%;

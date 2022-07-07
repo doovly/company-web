@@ -40,3 +40,55 @@
     margin-top: 30px;
     padding: 5px;
 }
+#joinfind{
+    width: 400px;
+}
+#joinfind1{
+    width: 400px;
+    height: 50px;
+    background-color: #111111;
+    font-size: 14px;
+    color: white;
+    margin: 7px;
+    padding: 15px;
+    font-weight: bold;
+}
+#joinfind2{
+    font-size: 12px;
+    width: 100%;
+    height: 80px;
+    padding: 17px;
+    margin: 7px;
+    background-color: rgb(255, 246, 234);
+}
+#joinfind2 h6{
+    font-size: 12px;
+}
+#joinfind3{
+    width: 400px;
+    margin: 7px;
+    height: 90px;
+    background-color:#eeeeee;
+    padding: 17px;
+}
+#joinfind3 input{
+    height: 20px;
+}
+
+
+#joinfind4{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+#joinfind4 input{
+    margin-left: 170px;
+}
+#joinfind5{
+    width: 400px;
+    margin: 9px;
+    height: 30px;
+    background-color: #dddddd;
+    margin-top: 30px;
+    padding: 5px;
+}

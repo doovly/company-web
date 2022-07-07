@@ -25,6 +25,13 @@
     vertical-align: middle;
     font-size: 14px;
     width: 200px;
+    
+}
+.table{
+    border-top: 3px solid #555555;
+}
+.table tr:last-child{
+    border-bottom: 1px solid #dddddd;
 }
 
 #dropdownMenuButton{
