@@ -30,7 +30,9 @@
     color: #999999;
     text-align: center;
 }
-
+#con-c{
+    background-color: #f3f3f3e3;
+}
 #con{
     width: 100%;
     max-width: 1000px;
