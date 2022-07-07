@@ -25,12 +25,11 @@
     });
     function submitbutton(){
       var arrayID = document.getElementsByClassName('name');
-      console.log(arrayID[0].value.length);
-      console.log(isEmpty(arrayID[0].value));
       if(arrayID[0].value.length < 4 || isEmpty(arrayID[0].value)){
         alert("아이디를 정확히 입력하세요 (4글자 이상)");
         return false;
       }
+      window.open("join2.html","_self")
     }
 
     var isEmpty = function(value){
@@ -84,7 +83,7 @@
       <img src="/img/member/img_email.gif" alt=""><input type="email" class="name">
     </div>  
     <div id="submit">
-      <a href="join2.html"><img src="/img/member/btn_confirm01.gif" onclick="submitbutton()"></a>
+      <img src="/img/member/btn_confirm01.gif" onclick="submitbutton()"></a>
     </div>
   </div>
   </div>

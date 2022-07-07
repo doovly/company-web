@@ -103,3 +103,53 @@
     justify-content: center;
     margin-bottom: 50px;
 }
+
+
+/* join3 */
+#dropdownMenuButton{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border-radius: 0;
+    width: 60px;
+    height: 30px;
+}
+
+.textform{
+    width: 180px;
+    border-radius: 0;
+    border: 1px solid #cccccc;
+    margin-right: 5px;
+}
+
+
+#but{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+.title3{
+    text-align: center;
+    font-size: 13px;
+    width: 170px;
+    border-right: 1px solid #cccccc;
+    background-color: #f3f3f3;
+}
+.table{
+    border: 1px solid #cccccc;
+}
+.sent{
+    font-size: 13px;
+}
+.sent img{
+    margin-right: 5px;
+}
+
+#joinbox{
+    background-color: #dddddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
