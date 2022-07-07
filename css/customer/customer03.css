@@ -28,7 +28,7 @@
   }
   
   #srcbar{
-    margin: 80px;
+    margin: 80px 0px;
   }
   .srh{
     height: 30px;
@@ -65,7 +65,6 @@
     border-bottom: 1px solid #dddddd;
     color: #999999;
 }
-
 .tdtitle{
   text-decoration: none;
   color: #999999;

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>회원가입</title>
+  <title>회원가입2</title>
 
   <!-- Main CSS : Header, Main, Footer -->
   <link rel="stylesheet" href="/css/main.css">
@@ -23,25 +23,6 @@
       $('#header').load("/header.html");     
       $('#footer').load("/footer.html");
     });
-    function submitbutton(){
-      var arrayID = document.getElementsByClassName('name');
-      console.log(arrayID[0].value.length);
-      console.log(isEmpty(arrayID[0].value));
-      if(arrayID[0].value.length < 4 || isEmpty(arrayID[0].value)){
-        alert("아이디를 정확히 입력하세요 (4글자 이상)");
-        return false;
-      }
-    }
-
-    var isEmpty = function(value){
-      if( value == "" || value == null || value == undefined 
-          || ( value != null && typeof value == "object" &&
-                !Object.keys(value).length ) ){    
-        return true;
-      }else{
-        return false;
-      }
-    };
   </script>
 
 </head>
@@ -69,32 +50,10 @@
 
   <!-- 메인 -->
   <!-- 회원가입 -->
-  <div id="join">
-    <p>회원가입</p>
-    <p>The design and maintenance are excellent.</p>
-  </div>
-  <div id="join2">
-    <p>OOO사이트에 오신 것을 환영합니다.</p>
-    <p>-이름과 이메일을 입력해 주시면 가입여부를 확인 후 회원가입 절차가 이루어집니다.</p>
-  </div>
-  <div class="form">
-    <div id="join3">
-    <div id="join4">
-      <img src="/img/member/img_name.gif" alt=""><input type="text" class="name"><br>
-      <img src="/img/member/img_email.gif" alt=""><input type="email" class="name">
-    </div>  
-    <div id="submit">
-      <a href="join2.html"><img src="/img/member/btn_confirm01.gif" onclick="submitbutton()"></a>
-    </div>
-  </div>
-  </div>
 
- 
+
   <!-- 푸터 -->
   <div id="footer"></div>
 
-  <script>
-    
-  </script>
 </body>
 </html>
