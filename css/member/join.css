@@ -138,6 +138,9 @@
 }
 .table{
     border: 1px solid #cccccc;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .sent{
     font-size: 13px;
@@ -149,7 +152,10 @@
 #joinbox{
     background-color: #dddddd;
     padding: 20px;
+    margin: 0 auto;
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 
