@@ -450,12 +450,14 @@
   height:  auto;
   padding: 20px 15px;
   text-align: center;
+  margin-right: 10px;
 }
 #cs-4 {
   background-color: rgb(0, 195, 255);
   height: auto;
   padding:20px 15px;
   text-align: center;
+  margin-right: 10px;
 }
 #cs-5 {
   background-color: #555555;
